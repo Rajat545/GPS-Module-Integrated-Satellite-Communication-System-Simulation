@@ -76,3 +76,8 @@ To parse JSON responses, install the **ArduinoJson** library.
 
 ### Step 4: Upload the code to ESP32
 
+## Usage Instructions
+1. **Upload the code** to your ESP32 using the Arduino IDE.
+2. **Open the Serial Monitor** in Arduino IDE to retrieve the ESP32’s IP address.
+3. **Open a web browser** and enter the IP address. This will display a Google Map with the ESP32’s real-time GPS location data.
+
