@@ -10,7 +10,7 @@ HardwareSerial neo6m(1);  // Using Serial1 for GPS communication on ESP32
 const char *ssid = "AndroidAP5FF9";            // WiFi name
 const char *password = "Rajat@1234";       // WiFi password
 
-String GMAP_API_KEY = "AIzaSyC7mKokU8VT-O4tp08y41r8yC2OHr5wH0E";  // Replace with your Google Maps API Key
+String GMAP_API_KEY = "";  // Replace with your Google Maps API Key
 
 WiFiServer server(80);  // HTTP server on port 80
 
